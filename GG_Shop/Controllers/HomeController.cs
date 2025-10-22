@@ -26,5 +26,12 @@ namespace GG_Shop.Controllers
 
             return View();
         }
+        public ActionResult Hello()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
     }
 }
