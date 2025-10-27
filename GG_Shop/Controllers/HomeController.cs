@@ -32,6 +32,12 @@ namespace GG_Shop.Controllers
 
             return View();
         }
+        public ActionResult index_admin()
+        {
+            ViewBag.Message = "admin";
+
+            return View();
+        }
 
     }
 }
